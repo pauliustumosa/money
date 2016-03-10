@@ -11,19 +11,16 @@ All amounts are represented in the smallest unit (eg. cents), so USD 5.00 is wri
    // or shorter:
    $fiver = Money::USD(500);
 
-Autoloading
------------
+Installation
+------------
 
-You'll need an autoloader. Money is PSR-0 compatible, so if you are using the Symfony2 autoloader, this will do:
+Install the library using composer. Add the following to your composer.json:
 
-.. code-block:: php
-   
-   <?php
-   use Symfony\Component\ClassLoader\UniversalClassLoader;
-   
-   $loader = new UniversalClassLoader;
-   $loader->registerNamespaces(array(
-      'Money' => __DIR__ . '/vendor/money/lib/',
-   ));
-   $loader->register();
-      
+.. code-block:: json
+
+{
+    "require": {
+        "mathiasverraes/money": "~3.0"
+    },
+}
+

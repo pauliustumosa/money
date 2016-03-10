@@ -9,5 +9,9 @@ Money for PHP
    GettingStarted
    Immutability
    Allocation
+   Json
+   IntegerLimit
+   Formatting
+   Parsing
    Inspiration
-   
+

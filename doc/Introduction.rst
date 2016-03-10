@@ -22,7 +22,4 @@ The goal
 
 Implement a reusable Money class in PHP, using all the best practices and taking care of all the
 subtle intricacies of handling money. I hope to add a lot more features, such as dealing with major
-units and subunits in currencies, currency conversion, string formatting and parsing, ...
-Other ideas include integration with Doctrine2, which should make it easier to store money
-in a database transparently. 
-
+units and subunits in currencies, currency conversion, string formatting and parsing.
