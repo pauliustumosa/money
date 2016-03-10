@@ -13,5 +13,6 @@ Money for PHP
    IntegerLimit
    Formatting
    Parsing
+   Bitcoin
    Inspiration
 

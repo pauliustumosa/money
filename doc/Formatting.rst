@@ -7,7 +7,8 @@ default the library contains two formatters. Most likely you will need the IntlM
 BitcoinSupportedMoneyFormatter. This formatter decorates the IntlMoneyFormatter. If none of the two is matching your
 needs, you can write your own formatter by implementing the interface MoneyFormatter.
 
-In order to use the IntlMoneyFormatter you will need the intl extension. Please find an example below.
+In order to use the IntlMoneyFormatter you will need the intl extension. Below you will find an example how to use this
+formatter. Please be aware that using the intl extension can give different results per system.
 
 .. code-block:: php
    
